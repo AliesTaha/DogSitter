@@ -9,18 +9,14 @@ import {
   Link
 } from "react-router-dom";
 import { Chat } from "@mui/icons-material";
-
-function HomePage() {
-  return(
-    <div>
-      <h1>I am homepage</h1>
-    </div>
-  )
-}
+import Cards from './Cards';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return(
     <div className="App">
+      <Header/>
+      <Cards/>
       <Router>
         <Routes>
           <Route path='/' element={<Header/>} />
