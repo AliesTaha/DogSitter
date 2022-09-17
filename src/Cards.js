@@ -1,6 +1,8 @@
 import React, {useState} from "react";
 import Card from "./Card";
-import erlich from './assets/erlich.jpg'
+// import Card from 'react-bootstrap/Card';
+import './Card.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Cards() {
     const [people, setPeople] = useState([
