@@ -1,5 +1,7 @@
 import './App.css';
 import Header from './Header';
+import Cards from './Cards';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
 
       {/*  Header */}
       <Header />
+      <Cards/>
       {/*  Tinder Cards */}
       {/*  Buttons below tinder cards */}
       
