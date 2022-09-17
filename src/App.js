@@ -1,24 +1,30 @@
+import React from "react";
+import Header from "./Header";
 import './App.css';
-import Header from './Header';
+import Chatbot from "./Chatbot.js";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
+import { Chat } from "@mui/icons-material";
 import Cards from './Cards';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  return (
+  return(
     <div className="App">
-      <h1></h1>
-
-      {/*  Header */}
-      <Header />
+      <Header/>
       <Cards/>
-      {/*  Tinder Cards */}
-      {/*  Buttons below tinder cards */}
+      <Router>
+        <Routes>
+          <Route path='/' element={<Header/>} />
+          <Route path='/chat' element={<Chatbot/>} />
+        </Routes>
+      </Router>
       
-      {/*  Chats screen */}
-      {/*  Individual chat screen */}
-
     </div>
-  );
+  )
 }
-
 export default App;
