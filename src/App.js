@@ -12,15 +12,17 @@ import { Chat } from "@mui/icons-material";
 import Cards from './Cards';
 import RegistrationPage from "./Registration";
 import Login from "./Login"
+import Profile from './Profile'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return(
     <div className="App">
       <Header/>
-      {/* <Cards/> */}
+      <Cards/>
+      {/* <Profile/> */}
       {/* <RegistrationPage/> */}
-      <Login/>
+      {/* <Login/> */}
       {/* <Router>
         <Routes>
           <Route path='/' element={<Header/>} />
