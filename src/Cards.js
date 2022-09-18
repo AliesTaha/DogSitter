@@ -28,7 +28,7 @@ function Cards() {
     ])
 
     return ( 
-        <Row className='p-0 card-group'>
+        <Row className='p-0 m-0 card-group'>
             {people.map(person => (
                 // <Row className='d-flex justify-content-center p-3'>
                     <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center'>

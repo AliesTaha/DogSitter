@@ -68,5 +68,21 @@
     font-size: 16px;
     color: white;
     padding-left: 15px;
-    padding-bottom: 20px;
+}
+
+.insta-container{
+    /* padding-bottom: 20px; */
+    margin-left: 15px;
+}
+
+.insta-logo {
+    height:30px !important;
+    width:30px !important;
+    max-width: 30px;
+    min-width: 30px;
+}
+
+.handle {
+    margin-left: 12px;
+    color: white;
 }

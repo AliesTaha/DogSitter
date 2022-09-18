@@ -2,6 +2,7 @@
     padding: 0;
     padding-top: 3vh;
     padding-bottom: 3vh;
+    background-color: #FF6962;
 }
 
 .form{
@@ -17,7 +18,7 @@
 }
 
 .form-body{
-    text-align: left;
+    text-align: center;
     padding: 20px 10px;
 }
 

@@ -4,6 +4,7 @@
     align-items: center; 
     text-decoration: none;
     border-bottom: 3px solid pink;
+    background-color: white;
 }
 
 .header__logo{

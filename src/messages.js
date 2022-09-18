@@ -15,7 +15,7 @@ function Messages() {
         </h1>
         <ul className="list-group">
         <li className="list-group-item d-flex justify-content-between align-items-start">
-            <img src="pic.jpg" className="pics"/>
+            <img src="./assets/chat1.jpg" className="pics"/>
             <div className="ms-2 me-auto">
             <div className="fw-bold">Ivan</div>
             Do you want the redpill or the bluepill?
@@ -23,7 +23,7 @@ function Messages() {
             <span className="badge bg-primary rounded-pill">3</span>
         </li>
         <li className="list-group-item d-flex justify-content-between align-items-start">
-            <img src="pic2.jpg" className="pics"/>
+            <img src="./assets/chat2.jpg" className="pics"/>
             <div className="ms-2 me-auto">
             <div className="fw-bold">Kelly</div>
             Bruh your dog loves one direction
@@ -31,7 +31,7 @@ function Messages() {
             <span className="badge bg-primary rounded-pill">10</span>
         </li>
         <li className="list-group-item d-flex justify-content-between align-items-start">
-            <img src="pic3.jpg" className="pics"/>
+            <img src="./assets/chat3.jpg" className="pics"/>
             <div className="ms-2 me-auto">
             <div className="fw-bold">Akash</div>
             bruh u messing with the new lil durk album?

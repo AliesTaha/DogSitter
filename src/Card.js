@@ -15,6 +15,10 @@ function Card({name, bio, img}) {
                 <div>
                     <p class="card-title">{name}</p>
                     <p class="card-text">{bio}</p>
+                    <div className='d-flex flex-direction-row insta-container'>
+                        <img className='insta-logo' src='./assets/instagram-logo.png'></img>
+                        <p className='handle'>handle</p>
+                    </div>
                 </div>
             </div>
         </div>
