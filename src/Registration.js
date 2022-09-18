@@ -68,7 +68,6 @@ function RegistrationPage() {
             method: "post",
             url: baseURL + '/register',
             data: formData,
-            // headers: { "Content-Type": "application/json" }
             headers: { "Content-Type": "multipart/form-data" },
           });
         } catch(error) {
@@ -79,9 +78,7 @@ function RegistrationPage() {
     return (
         <div className='d-flex justify-content-center registration-container'>
             <div className="registration-form">
-            <div className='mt-5'>
-                <h1>Register</h1>
-            </div>
+            <img className='cibyd-logo' src='./assets/cibyd-logo.png'></img>
             <div className="registration-form-body">
                 <div className="firstname field">
                     <label className="form__label" htmlFor="firstName">First Name </label>

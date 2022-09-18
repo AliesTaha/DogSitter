@@ -13,6 +13,7 @@
     background-color: white;
     border-radius: 5px;
     width: 75vw;
+    max-width: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,6 +30,13 @@
 .registration-form-body{
     text-align: center;
     padding: 20px 10px;
+}
+
+.cibyd-logo {
+    /* position: absolute; */
+    height:100px;
+    margin-top: 20px;
+    /* top: 0px; */
 }
 
 .form-body > *{

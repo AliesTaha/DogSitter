@@ -11,6 +11,7 @@ import {
 } from "react-router-dom";
 import { Chat } from "@mui/icons-material";
 import Cards from './Cards';
+import PeopleCards from './PeopleCards';
 import RegistrationPage from "./Registration";
 import Login from "./Login"
 import Profile from './Profile'
@@ -25,6 +26,7 @@ function App() {
         <Routes>
           <Route path='/log' element={<Login/>} />
           <Route path='/feed' element={<><Header/> <Cards/></>}/>
+          <Route path='/people' element={<><Header/> <PeopleCards/></>}/>
           <Route path='/reg' element={<RegistrationPage/>} />
           <Route path='/chat' element={<> <Header/> <Messages/> </>}/>
           <Route path='/profile' element={<> <Header/> <Profile/> </>}/>
