@@ -4,21 +4,32 @@ import PetsIcon from '@mui/icons-material/Pets';
 import ForumIcon from '@mui/icons-material/Forum';
 import PersonIcon from '@mui/icons-material/Person';
 import { IconButton } from '@mui/material';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Link
+  } from "react-router-dom";
 
 function Header(){
     
     return (
 
         <div className="header">
-            <IconButton>
-            <PersonIcon className="header_icon" fontSize="large"/>
-            </IconButton>
 
-            <font size="+4">🐶</font>
+            <font size="+5">🐶</font>
 
-            <IconButton>
-            <ForumIcon className="header_icon" fontSize="large"/>
-            </IconButton>
+            <Link to='/feed'>
+                <IconButton>
+                <PersonIcon className="header_icon" fontSize="large"/>
+                </IconButton>
+            </Link>
+
+            <Link to="/chat">
+                <IconButton>
+                    <ForumIcon className="header_icon" fontSize="large"/>
+                </IconButton>
+            </Link>
         </div>
     )
 }
