@@ -3,7 +3,7 @@ import './Registration.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 
-const baseURL = "http://10.33.130.218:80/api/v1";
+const baseURL = "http://localhost:8080/api/v1";
 
 
 function RegistrationPage() {
@@ -26,20 +26,28 @@ function RegistrationPage() {
         const formData = new FormData();
         formData.append("email", email);
         formData.append("password", password);
-        var object = {};
-        formData.forEach((value, key) => object[key] = value);
-        var json = JSON.stringify(object);
-        console.log(json)
-        try {
-          const response = await axios({
-            method: "post",
-            url: baseURL + '/login',
-            data: formData,
-            headers: { "Content-Type": "multipart/form-data" },
-          });
-        } catch(error) {
-          console.log(error)
-        }
+
+       fetch(baseURL + '/login', {
+            method: 'POST',
+            mode: 'cors',
+            cache: 'no-cache',
+            redirect: 'follow',
+            referrer: 'no-referrer',
+            body: formData,
+            credentials: 'include'
+          }).then(response=> response.json())
+          .then(myJson=> {
+            if(myJson.message == 'Login Successfull'){
+                axios.get(baseURL + '/public/pets',  { withCredentials: true })
+                .then((response) => {
+                    window.localStorage.setItem('pets', JSON.stringify(response.data))
+                })
+            }
+        }).then(json => { axios.get(baseURL + '/public/pets',  { withCredentials: true })
+        .then((response) => {
+            window.localStorage.setItem('pets', JSON.stringify(response.data))
+            window.location.replace("http://localhost:3000/feed");
+        })})
       }
 
     return (
