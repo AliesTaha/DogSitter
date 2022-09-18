@@ -1,0 +1,15 @@
+.card-group {
+    margin-bottom: 0;
+    margin-top: 2.5vh !important;
+    margin-bottom: 2.5vh !important;
+    margin-left: 2.5vw !important;
+    margin-right: 2.5vw !important;
+    width: min(100vw, 2000px);
+    justify-content: center;
+}
+
+.col {
+    width: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
