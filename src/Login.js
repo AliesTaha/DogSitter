@@ -48,9 +48,13 @@ function LoginPage() {
         }).then(json => { axios.get(baseURL + '/public/pets',  { withCredentials: true })
         .then((response) => {
             window.localStorage.setItem('pets', JSON.stringify(response.data))
+        })}).then(json => { axios.get(baseURL + '/profile/all',  { withCredentials: true })
+        .then((response) => {
+            window.localStorage.setItem('users', JSON.stringify(response.data))
             window.location.replace("http://localhost:3000/feed");
         })})
       }
+
 
     return (
         <div className='d-flex justify-content-center login-container'>
@@ -75,7 +79,7 @@ function LoginPage() {
                 </div>
                 <Link className='register-button' to='/reg'>Or Register To Join!</Link>
             </div>
-            
+
         </div>
      );
 }
