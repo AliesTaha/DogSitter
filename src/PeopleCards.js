@@ -10,17 +10,17 @@ import Col from 'react-bootstrap/Col';
 
 function Cards() {
 
-    let people = JSON.parse(window.localStorage.getItem('people'))
+    let people = JSON.parse(window.localStorage.getItem('users'))
     return (<>
         {people === null ?
         <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center'>
             <Card name="Please login" bio="" img=""></Card>
         </Col>
      : <Row className='p-0 m-0 card-group'>
-            {people.map(people => (
+            {people.users.map(people => (
                 // <Row className='d-flex justify-content-center p-3'>
                     <Col className='col-12 col-lg-6 col-xl-4 d-flex justify-content-center'>
-                        <Card name={people.name} bio={people.breed} img={people.image} id={people.user_id}></Card>
+                        <Card name={people.firstname} bio={people.bio} img={people.image} id={people.id}></Card>
                     </Col>
             ))}
         </Row> }
