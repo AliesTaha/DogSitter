@@ -3,7 +3,7 @@ import './Registration.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 
-const baseURL = "http://10.33.130.218:80/api/v1";
+const baseURL = "http://localhost:8080/api/v1";
 
 
 function RegistrationPage() {
@@ -26,21 +26,28 @@ function RegistrationPage() {
         const formData = new FormData();
         formData.append("email", email);
         formData.append("password", password);
-        var object = {};
-        formData.forEach((value, key) => object[key] = value);
-        var json = JSON.stringify(object);
-        console.log(json)
-        try {
-          const response = await axios({
-            method: "post",
-            url: baseURL + '/login',
-            data: formData,
-            headers: { "Content-Type": "multipart/form-data" },
+
+        fetch(baseURL + '/login', {
+            method: 'POST',
+            mode: 'cors',
+            cache: 'no-cache',
+            redirect: 'follow',
+            referrer: 'no-referrer',
+            body: formData,
+            credentials: 'include'
           });
-        } catch(error) {
-          console.log(error)
-        }
+
+          fetch(baseURL + '/profile', {
+            method: 'GET',
+            mode: 'cors',
+            cache: 'no-cache',
+            redirect: 'follow',
+            referrer: 'no-referrer',
+            credentials: 'include'
+          })
       }
+
+
 
     return (
         <div className='d-flex justify-content-center registration-container'>
