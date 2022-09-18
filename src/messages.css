@@ -1,0 +1,22 @@
+#main-head{
+    margin-left: 0.7em;
+    font-weight: 800;
+    padding: 0.5em;
+  }
+  
+  .pics{
+    height: 4em;
+    width: 4em;
+    margin-right: 0.5em;
+  }
+  
+  img {
+    border-radius: 50%;
+  }
+  
+  @media (min-width: 800px){
+    #holder{
+      width: 60%;
+      margin:0 auto;
+    }
+  }
