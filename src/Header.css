@@ -1,10 +1,20 @@
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center; 
+    /* justify-content: space-around; */
+    align-items: center;
     text-decoration: none;
     /* border-bottom: 3px solid pink; */
     background-color: #FF6962;
+}
+
+.small-logo{
+    max-height: 85px;
+    max-width: 75px;
+}
+
+.large-logo{
+    max-height: 100px;
+    max-width: 150px;
 }
 
 .header__logo{
@@ -22,4 +32,10 @@
 
 svg {
     color: white;
+}
+
+.middle-div {
+    padding-right:8vw;
+    margin-left:auto;
+    margin-right:auto;
 }

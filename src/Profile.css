@@ -1,7 +1,16 @@
 .profile-container {
+    /* margin-top: 25px; */
     padding: 0;
     padding-top: 3vh;
     padding-bottom: 3vh;
+}
+
+.full-profile{
+    padding: 0;
+    margin: 0;
+    background-color: #89CFF0;
+    width: 100%;
+    height: 95%;
 }
 
 .profile{
@@ -14,6 +23,8 @@
     margin: 0 !important;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding-bottom: 3vh;
+    max-width: 500px;
+    margin-top: 20px;
 }
 
 .profile-label {
@@ -64,11 +75,15 @@
     touch-action: manipulation;
     width: 100%;
   }
-  
+
   .button-9:disabled {
     cursor: default;
   }
-  
+
   .button-9:focus {
     box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+  }
+
+  .chat-button{
+    max-width: 100px;
   }

@@ -15,6 +15,7 @@ import PeopleCards from './PeopleCards';
 import RegistrationPage from "./Registration";
 import Login from "./Login"
 import Profile from './Profile'
+import MyProfile from './MyProfile'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Messages from "./messages";
 import { Card } from "react-bootstrap";
@@ -30,6 +31,7 @@ function App() {
           <Route path='/reg' element={<RegistrationPage/>} />
           <Route path='/chat' element={<> <Header/> <Messages/> </>}/>
           <Route path='/profile' element={<> <Header/> <Profile/> </>}/>
+          <Route path='/myprofile' element={<> <Header/> <MyProfile/> </>}/>
           <Route path='/' element={<Login/>}/>
         </Routes>
       </Router>

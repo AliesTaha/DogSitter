@@ -15,33 +15,40 @@ import {
 import { AccountBox } from '@mui/icons-material';
 
 function Header(){
-    
+
     return (
 
         <div className="header">
-            <Link to='/profile'>
-                <IconButton>
-                <AccountBoxIcon className="profile_icon" fontSize="large"/>
-                </IconButton>
-            </Link>
             <div>
-            <Link to='/people'>
-                <IconButton>
-                <PersonSearchIcon className="header_icon" fontSize="large"/>
-                </IconButton>
-            </Link>
-            <Link to='/feed'>
-                <IconButton>
-                <PetsIcon className="PetsIcon" fontSize="large"/>
-                </IconButton>
-            </Link>
+                <img src="assets/cibyd-logo.png" className="small-logo" />
+                <img src="assets/cibyd-logo-text.png" className="large-logo" />
+            </div>
+            <div className='middle-div'>
+                <Link to='/people'>
+                    <IconButton>
+                    <PersonSearchIcon className="header_icon" fontSize="large"/>
+                    </IconButton>
+                </Link>
+                <Link to='/feed'>
+                    <IconButton>
+                    <PetsIcon className="PetsIcon" fontSize="large"/>
+                    </IconButton>
+                </Link>
             </div>
 
-            <Link to="/chat">
-                <IconButton>
-                    <ForumIcon className="ForumIcon" fontSize="large"/>
-                </IconButton>
-            </Link>
+            <div>
+
+                <Link to="/chat">
+                    <IconButton>
+                        <ForumIcon className="ForumIcon" fontSize="large"/>
+                    </IconButton>
+                </Link>
+                <Link to='/myprofile'>
+                    <IconButton>
+                    <AccountBoxIcon className="profile_icon" fontSize="large"/>
+                    </IconButton>
+                </Link>
+            </div>
         </div>
     )
 }

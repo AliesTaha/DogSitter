@@ -51,6 +51,9 @@ function LoginPage() {
         })}).then(json => { axios.get(baseURL + '/profile/all',  { withCredentials: true })
         .then((response) => {
             window.localStorage.setItem('users', JSON.stringify(response.data))
+        })}).then(json => { axios.get(baseURL + '/profile',  { withCredentials: true })
+        .then((response) => {
+            window.localStorage.setItem('current', JSON.stringify(response.data))
             window.location.replace("http://localhost:3000/feed");
         })})
       }
