@@ -11,14 +11,17 @@ function Cards() {
     const [people, setPeople] = useState([
         {
             name: 'Richard Hendricks',
+            bio: 'I always knew I was missing something, and then when someone explained the concept of ‘game’ I remember very distinctly thinking ‘That’s what I don’t have.',
             url: './assets/richard.jpg'
         },
         {
             name: 'Erlich Bachman',
+            bio: "Until then, we need to do what any animal in nature does when it's cornered—act erratically and blindly lash out at everything around us.",
             url: './assets/erlich.jpg'
         },
         {
             name: 'Jared Dunn',
+            bio: 'I have a lot of elderly friends.',
             url: './assets/jared.jpg'
         }
     ])

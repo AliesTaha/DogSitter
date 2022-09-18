@@ -10,6 +10,9 @@ import {
 } from "react-router-dom";
 import { Chat } from "@mui/icons-material";
 import Cards from './Cards';
+import RegistrationPage from "./Registration";
+import Login from "./Login"
+import Profile from './Profile'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -17,13 +20,15 @@ function App() {
     <div className="App">
       <Header/>
       <Cards/>
-      <Router>
+      {/* <Profile/> */}
+      {/* <RegistrationPage/> */}
+      {/* <Login/> */}
+      {/* <Router>
         <Routes>
           <Route path='/' element={<Header/>} />
           <Route path='/chat' element={<Chatbot/>} />
         </Routes>
-      </Router>
-      
+      </Router> */}
     </div>
   )
 }
