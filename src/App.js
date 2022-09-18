@@ -27,13 +27,13 @@ function App() {
           <Route path='/feed' element={<><Header/> <Cards/></>}/>
           <Route path='/reg' element={<RegistrationPage/>} />
           <Route path='/chat' element={<> <Header/> <Messages/> </>}/>
+          <Route path='/profile' element={<> <Header/> <Profile/> </>}/>
           <Route path='/' element={<Login/>}/>
-          
         </Routes>
       </Router>
     </div>
   )
 }
 
-//Up and running 
+//Up and running
 export default App;
