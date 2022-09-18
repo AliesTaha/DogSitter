@@ -1,5 +1,6 @@
 import React from 'react';
 import './Profile.css'
+import { Link } from 'react-router-dom'
 
 
 function Profile() {
@@ -18,6 +19,7 @@ function Profile() {
                 <div className='profile-label'>Instagram</div>
                 <div className='profile-text'> {users.users[user.id - 1].instagram}</div>
                 <img src={users.users[user.id - 1].image} className='profile-image'></img>
+                {/* <Link className='btn button-9' to='/reg'>Or Register To Join!</Link> */}
             </div>
         </div>
 

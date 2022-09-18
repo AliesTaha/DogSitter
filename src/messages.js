@@ -10,6 +10,7 @@ const baseURL = "http://10.33.130.218:80/api/v1";
 function Messages() {
 
     return (
+        <div>
         <div id="holder">
         <h1 id="main-head" >Messages
         </h1>
@@ -39,12 +40,12 @@ function Messages() {
             <span className="badge bg-primary rounded-pill">4</span>
         </li>
         </ul>
+        </div>
         <div className='puppy-container'>
             <img className='puppy' src='./assets/puppy1.png'></img>
         </div>
         <div class="half-circle"></div>
-        </div>
-
+    </div>
        
     
     );

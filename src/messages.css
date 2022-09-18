@@ -19,12 +19,16 @@
   }
 
   .puppy-container {
-    width: 90vw;
-    height:400px;
+    width: 100vw;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
   }
 
   .puppy {
-    height:400px;
+    height:250px;
   }
 
   .half-circle {
