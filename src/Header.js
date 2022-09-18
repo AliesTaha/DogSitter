@@ -17,17 +17,24 @@ function Header(){
 
         <div className="header">
 
-            <font size="+5">🐶</font>
+                <font size="+5">🐶</font>
 
+            <div>
             <Link to='/feed'>
                 <IconButton>
                 <PersonIcon className="header_icon" fontSize="large"/>
                 </IconButton>
             </Link>
+            <Link to='/dogs'>
+                <IconButton>
+                <PetsIcon className="PetsIcon" fontSize="large"/>
+                </IconButton>
+            </Link>
+            </div>
 
             <Link to="/chat">
                 <IconButton>
-                    <ForumIcon className="header_icon" fontSize="large"/>
+                    <ForumIcon className="ForumIcon" fontSize="large"/>
                 </IconButton>
             </Link>
         </div>
