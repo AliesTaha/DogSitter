@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <Header/>
       <Cards/>
-      {/* <Profile/> */}
+      <Profile/>
       {/* <RegistrationPage/> */}
       {/* <Login/> */}
       {/* <Router>
