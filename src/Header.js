@@ -20,7 +20,7 @@ function Header(){
                 <font size="+5">🐶</font>
 
             <div>
-            <Link to='/feed '>
+            <Link to='/feed'>
                 <IconButton>
                 <PersonIcon className="header_icon" fontSize="large"/>
                 </IconButton>

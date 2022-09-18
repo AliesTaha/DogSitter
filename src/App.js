@@ -15,17 +15,20 @@ import RegistrationPage from "./Registration";
 import Login from "./Login"
 import Profile from './Profile'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Messages from "./messages";
+import { Card } from "react-bootstrap";
 
 function App() {
   return(
     <div className="App">
       <Router>
         <Routes>
-          <Route path='/chat' element={<> <Header/> <Chatbot/> </>}/>
-          <Route path='/feed' element={<> <Header/> <Cards/> </>} />
-          <Route path='/' element={<Home/>}/>
           <Route path='/log' element={<><Header/> <Login/> </>} />
+          <Route path='/feed' element={<><Header/> <Cards/></>}/>
           <Route path='/reg' element={<><Header/> <RegistrationPage/> </>} />
+          <Route path='/chat' element={<> <Header/> <Messages/> </>}/>
+          <Route path='/' element={<Home/>}/>
+          
         </Routes>
       </Router>
     </div>
