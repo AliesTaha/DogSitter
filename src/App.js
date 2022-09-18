@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Header";
 import './App.css';
 import Chatbot from "./Chatbot.js";
+import Home from "./Home.js"
 import {
   BrowserRouter as Router,
   Routes,
@@ -18,18 +19,18 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return(
     <div className="App">
-      <Header/>
-      <Cards/>
-      <Profile/>
-      {/* <RegistrationPage/> */}
-      {/* <Login/> */}
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route path='/' element={<Header/>} />
-          <Route path='/chat' element={<Chatbot/>} />
+          <Route path='/chat' element={<> <Header/> <Chatbot/> </>}/>
+          <Route path='/feed' element={<> <Header/> <Cards/> </>} />
+          <Route path='/' element={<Home/>}/>
+          <Route path='/log' element={<><Header/> <Login/> </>} />
+          <Route path='/reg' element={<><Header/> <RegistrationPage/> </>} />
         </Routes>
-      </Router> */}
+      </Router>
     </div>
   )
 }
+
+//Up and running 
 export default App;
