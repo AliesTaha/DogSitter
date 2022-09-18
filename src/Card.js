@@ -31,7 +31,7 @@ function Card({name, bio, img, id}) {
         .then(myJson => setDatas(myJson[0]))
       }
     function saveUser(){
-        window.localStorage.setItem('profile', datas)
+        window.localStorage.setItem('profile', JSON.stringify(datas))
         window.location.replace("http://localhost:3000/profile");
     }
 
@@ -48,10 +48,7 @@ function Card({name, bio, img, id}) {
                     <p class="card-text">{bio}</p>
                     <div className='d-flex flex-direction-row insta-container'>
                         <img className='insta-logo' src='./assets/instagram-logo.png'></img>
-                        <Link to="/profile" state={datas}>
-                            Next Step
-                            </Link>
-                        <p onClick={saveUser} className='handle'>{datas.firstname}</p>
+                        <a href="#" onClick={saveUser} className='handle'>{datas.firstname}</a>
                     </div>
                 </div>
             </div>

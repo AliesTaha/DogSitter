@@ -3,11 +3,13 @@ import './Profile.css'
 
 
 function Profile() {
-    return ( 
+    let user = JSON.parse(window.localStorage.getItem('profile'))
+    console.log(user)
+    return (
         <div className='d-flex justify-content-center profile-container'>
             <div className='profile'>
                 <div className='profile-label'>Name</div>
-                <div className='profile-text'>Karl</div>
+                <div className='profile-text'>test</div>
                 <div className='profile-label'>Last name</div>
                 <div className='profile-text'>Stencell</div>
                 <div className='profile-label'>Email</div>
