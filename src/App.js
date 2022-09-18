@@ -10,20 +10,23 @@ import {
 } from "react-router-dom";
 import { Chat } from "@mui/icons-material";
 import Cards from './Cards';
+import RegistrationPage from "./Registration";
+import Login from "./Login"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return(
     <div className="App">
       <Header/>
-      <Cards/>
-      <Router>
+      {/* <Cards/> */}
+      {/* <RegistrationPage/> */}
+      <Login/>
+      {/* <Router>
         <Routes>
           <Route path='/' element={<Header/>} />
           <Route path='/chat' element={<Chatbot/>} />
         </Routes>
-      </Router>
-      
+      </Router> */}
     </div>
   )
 }
