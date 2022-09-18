@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+CAN I BORROW YOUR DOG PLEASE!!!!
 
-Things you may want to cover:
+This is a web app that brings people together so that we can all enjoy our furry little companions when we need them most.
 
-* Ruby version
+If you're going away for the weekend and are having a hard time finding a pet sitter then you're looking in all the wrong places but TONS of people would be jump at the chance to take care of your cute little pups for a couple of days!
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+And if you are looking to make a new friend, look no further - there are many to be found on CAN I BORROW YOUR DOG PLEASE!
