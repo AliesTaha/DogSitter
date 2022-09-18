@@ -1,12 +1,14 @@
 import React, {useState, setState} from 'react';
-import './Registration.css';
+import './Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
+import { Link } from 'react-router-dom'
+
 
 const baseURL = "http://10.33.130.218:80/api/v1";
 
 
-function RegistrationPage() {
+function LoginPage() {
     const [email, setEmail] = useState(null);
     const [password,setPassword] = useState(null);
 
@@ -43,7 +45,9 @@ function RegistrationPage() {
       }
 
     return (
-        <div className='d-flex justify-content-center registration-container'>
+        <div className='d-flex justify-content-center login-container'>
+            <img className='logo' src='./assets/cibyd.png'></img>
+            <img className='dog' src='./assets/puppy-logo.png'></img>
             <div className="form">
             <div className='mt-5'>
                 <h1>Login</h1>
@@ -61,9 +65,11 @@ function RegistrationPage() {
                 <div className="footer field">
                     <button onClick={()=>handleSubmit()} type="submit" className="btn button-9" role="button">Login</button>
                 </div>
+                <Link className='register-button' to='/reg'>Or Register To Join!</Link>
             </div>
+            
         </div>
      );
 }
 
-export default RegistrationPage;
+export default LoginPage;

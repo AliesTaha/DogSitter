@@ -78,11 +78,11 @@ function RegistrationPage() {
 
     return (
         <div className='d-flex justify-content-center registration-container'>
-            <div className="form">
+            <div className="registration-form">
             <div className='mt-5'>
                 <h1>Register</h1>
             </div>
-            <div className="form-body">
+            <div className="registration-form-body">
                 <div className="firstname field">
                     <label className="form__label" htmlFor="firstName">First Name </label>
                     <input className="form__input" type="text" id="firstName" value={firstName} onChange={(e) => handleInputChange(e)} placeholder="FirstName"/>
@@ -112,7 +112,9 @@ function RegistrationPage() {
                     <input  type="form__input" name="" id="bio"  className="form__input" value={bio} onChange={(e) => handleInputChange(e)} placeholder="Bio"/>
                 </div>
                 </div>
+                <div className='get-file'>
                     <input type="file" name="image" onChange={handleFileSelect} accept="image/*" />
+                </div>
                 <div className="footer field">
                     <button onClick={()=>handleSubmit()} type="submit" className="btn button-9" role="button">Register</button>
                 </div>

@@ -39,6 +39,10 @@ function Messages() {
             <span className="badge bg-primary rounded-pill">4</span>
         </li>
         </ul>
+        <div className='puppy-container'>
+            <img className='puppy' src='./assets/puppy1.png'></img>
+        </div>
+        <div class="half-circle"></div>
         </div>
 
        

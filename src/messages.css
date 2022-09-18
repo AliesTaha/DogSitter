@@ -10,13 +10,33 @@
     margin-right: 0.5em;
   }
   
-  img {
-    border-radius: 50%;
-  }
-  
   @media (min-width: 800px){
     #holder{
       width: 60%;
+      max-height: 50vh !important;
       margin:0 auto;
     }
   }
+
+  .puppy-container {
+    width: 90vw;
+    height:400px;
+  }
+
+  .puppy {
+    height:400px;
+  }
+
+  .half-circle {
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+    width: 100vw;
+    height: 300px;
+    background-color: #80D2F6;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    border: 10px solid #80D2F6;
+    border-bottom: 0;
+}
