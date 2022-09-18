@@ -19,8 +19,8 @@ function App() {
   return(
     <div className="App">
       <Header/>
-      {/* <Cards/> */}
-      <Profile/>
+      <Cards/>
+      {/* <Profile/> */}
       {/* <RegistrationPage/> */}
       {/* <Login/> */}
       {/* <Router>
