@@ -43,9 +43,6 @@ function RegistrationPage() {
         if(id === "instagram"){
             setInstagram(value);
         }
-        // if(id === "image"){
-        //     setImage(e.target.value);
-        // }
     }
 
     const handleFileSelect = (event) => {
@@ -67,7 +64,7 @@ function RegistrationPage() {
         var json = JSON.stringify(object);
         console.log(json)
         try {
-          const response = await axios({
+            const response = await axios({
             method: "post",
             url: baseURL + '/register',
             data: formData,

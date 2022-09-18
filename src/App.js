@@ -11,6 +11,7 @@ import {
 import { Chat } from "@mui/icons-material";
 import Cards from './Cards';
 import RegistrationPage from "./Registration";
+import Login from "./Login"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -18,7 +19,8 @@ function App() {
     <div className="App">
       <Header/>
       {/* <Cards/> */}
-      <RegistrationPage/>
+      {/* <RegistrationPage/> */}
+      <Login/>
       {/* <Router>
         <Routes>
           <Route path='/' element={<Header/>} />
