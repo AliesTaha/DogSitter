@@ -1,12 +1,4 @@
 
-
-
-![Person](https://user-images.githubusercontent.com/103478551/208367344-0c4c3f4a-774a-41a9-930f-c80d3beaf075.png)
-
-<h2 align="center">            ~ 𝑅𝑒𝑔𝒾𝓈𝓉𝓇𝒶𝓉𝒾𝑜𝓃 ~</h2>
-
-![Registration](https://user-images.githubusercontent.com/103478551/208367353-73276e42-dc35-4505-a501-098709e5a4b7.png)
-
 # Dog-Sitter: A Hack The North Website
 
 ![Dogs](https://user-images.githubusercontent.com/103478551/208367317-8809a43c-9ab4-4dda-a29e-0f5949fcafff.png)
@@ -61,7 +53,6 @@ Logging out simply clears the memory of the browser such that the user has to lo
 
 #### People
 Following a user and unfollowing them is similar to liking the post. Clicking the follow button allows the user to be added to the userBeingFollowed's array of followers, and adds the userBeingFollowed to the user's array of followings. Pressing the button again reverses this process. This is shown above. 
-![image](https://user-images.githubusercontent.com/103478551/209669125-72bd695a-6728-4076-acfb-eb4087ddff74.png)
 ![People](https://user-images.githubusercontent.com/103478551/208367338-e91d23f9-0477-4357-a1dd-9c33416f11f6.png)
 <hr>
 
@@ -70,13 +61,13 @@ Following a user and unfollowing them is similar to liking the post. Clicking th
 The feed is created by appending all the posts of the users who are followed in the database, then ordering the posts using the timestamps so that the most recent post in on top. 
 <hr>
 
-#### Create a Post
-<img src="https://media.giphy.com/media/HPUz3qclIElvlhsMyf/giphy.gif" width="900" height="730">
+#### Person
+![Person](https://user-images.githubusercontent.com/103478551/208367344-0c4c3f4a-774a-41a9-930f-c80d3beaf075.png)
 One can create a post that includes a text, an image, or both. The functionality is supported for any option, and each post has its own ID in the backend, and is timestamped so that they are shown in chronological order.
 <hr>
 
-#### Like or Unlike a Post
-<img src="https://media.giphy.com/media/wpVh4p82R9T7XxPsrd/giphy.gif" width="900" height="730">
+#### Registration
+![Registration](https://user-images.githubusercontent.com/103478551/208367353-73276e42-dc35-4505-a501-098709e5a4b7.png)
 Liking a post is simply done through pressing the like button, which increments the post's number of likes by 1. Clicking the button again removes the like from the post
 <hr>
 
