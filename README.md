@@ -20,7 +20,6 @@ The web application deals with client and server side, and uses big stack approa
   + [Person](#person)
   + [Login](#login)
   + [Registration](#registration)
-* [Backend](#backend)
 * [Installation](#installation)
 
 ## Technologies
@@ -73,40 +72,7 @@ The feed is created by appending all the posts of the users who are followed in 
 Liking a post is simply done through pressing the like button, which increments the post's number of likes by 1. Clicking the button again removes the like from the post
 <hr>
 
-
-## Backend
-<img src="https://user-images.githubusercontent.com/103478551/209657629-59e84dc9-49a7-4e32-95b9-e8a63a43c260.png">
-Useful functionalities implemented by connecting MongoDB to app, and Express server and Node.js used on the server side. Routing and the aggregation of timeline were also taken care of :sunglasses:	.
-
 ## Installation
-- Download the files, then CD into the /client and run the following commands
-```
-cd client
-npm i redux red ux-thunk react-redux
-npm i axios
-yarn 
-yarn add react-roucter-dom
-yarn start
-)
-```
-- Simultaneously open a new terminal, CD into the /server and run the following 
-```
-npm init
-npm i express
-npm i mongoose
-npm i body-parser
-npm i nodemon
-yarn 
-yarn add react-roucter-dom
-npm start
-)
-```
-
-
-- The backend is connected to mongo db cloud
-- The server runs in port 8080
-- The client runs in port 3000
-- Make sure these are free before downloading the project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
