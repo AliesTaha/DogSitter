@@ -1,8 +1,9 @@
 
 # Dog-Sitter: A Hack The North Website
-<div style="text-align: center;">
-  <img src="https://user-images.githubusercontent.com/103478551/208367317-8809a43c-9ab4-4dda-a29e-0f5949fcafff.png" style="width: 200px; height: 200px; margin: auto;">
+<div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+  <img src="https://user-images.githubusercontent.com/103478551/208367317-8809a43c-9ab4-4dda-a29e-0f5949fcafff.png" style="width: 500px; height: 500px;">
 </div>
+
 
 ![Dogs](https://user-images.githubusercontent.com/103478551/208367317-8809a43c-9ab4-4dda-a29e-0f5949fcafff.png)
 
