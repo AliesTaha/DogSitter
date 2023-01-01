@@ -43,6 +43,7 @@ The web application deals with client and server side, and uses big stack approa
 </p>
 <a href="#top" class="btn">Back to table of contents</a>
 <hr>
+
 ## Functionality
 
 #### Dogs
