@@ -14,12 +14,12 @@ The web application deals with client and server side, and uses big stack approa
 * [Technologies used](#technologies)
 * [Languages used](#languages)
 * [Supported functionality](#functionality)
-  + [Chat](#chat)
   + [Dogs](#dogs)
   + [People](#people)
   + [Person](#person)
   + [Login](#login)
   + [Registration](#registration)
+  + [Chat](#chat)
 * [Installation](#installation)
 
 ## Technologies
@@ -41,36 +41,38 @@ The web application deals with client and server side, and uses big stack approa
 
 ## Functionality
 
-#### Chat
-![Chat](https://user-images.githubusercontent.com/103478551/208367306-7b17366e-bd8b-407b-9b4f-769ba267f771.jpg)
-Signing up adds the new user to the database, and gives them the default profile and background image. It checks to see if passwords match, and checks if the user already exists in the database before doing so. 
-<hr>
-
 #### Dogs
 ![Dogs](https://user-images.githubusercontent.com/103478551/208367317-8809a43c-9ab4-4dda-a29e-0f5949fcafff.png)
-Logging in simply checks if the user exists in the databse. If so, it checks if the passwords match. If so, then they can move on their own home page. 
-Logging out simply clears the memory of the browser such that the user has to log back in, either with the same credentials or a different one. 
+The feed is created by appending all the dogs in the database, then ordering the posts using the timestamps so that the most recent post in on top.
 <hr>
 
 #### People
-Following a user and unfollowing them is similar to liking the post. Clicking the follow button allows the user to be added to the userBeingFollowed's array of followers, and adds the userBeingFollowed to the user's array of followings. Pressing the button again reverses this process. This is shown above. 
 ![People](https://user-images.githubusercontent.com/103478551/208367338-e91d23f9-0477-4357-a1dd-9c33416f11f6.png)
+The feed is created by appending all the users in the database, then ordering the posts using the timestamps so that the most recent post in on top. This shows each user the people they're searching for, whether pet-owners or dog-sitters. 
 <hr>
 
 #### Person
 ![Person](https://user-images.githubusercontent.com/103478551/208367344-0c4c3f4a-774a-41a9-930f-c80d3beaf075.png)
-One can create a post that includes a text, an image, or both. The functionality is supported for any option, and each post has its own ID in the backend, and is timestamped so that they are shown in chronological order.
+This acts as a profile page, which simply shows the details about the user. This shows if the user is a dog-sitter or has a dog themselves, and information both about the person and the pet. 
 <hr>
 
 #### Login
 ![Login](https://user-images.githubusercontent.com/103478551/208367328-e2e7a4a8-08d7-48c3-8560-41b4599c74c3.jpg)
-The feed is created by appending all the posts of the users who are followed in the database, then ordering the posts using the timestamps so that the most recent post in on top. 
+Logging in simply checks if the user exists in the databse. If so, it checks if the passwords match. If so, then they can move on their own home page. 
+Logging out simply clears the memory of the browser such that the user has to log back in, either with the same credentials or a different one. 
+
 <hr>
 
 #### Registration
 ![Registration](https://user-images.githubusercontent.com/103478551/208367353-73276e42-dc35-4505-a501-098709e5a4b7.png)
-Liking a post is simply done through pressing the like button, which increments the post's number of likes by 1. Clicking the button again removes the like from the post
+Signing up adds the new user to the database, and gives them the default profile and background image. It checks to see if passwords match, and checks if the user already exists in the database before doing so. 
 <hr>
+
+#### Chat
+![Chat](https://user-images.githubusercontent.com/103478551/208367306-7b17366e-bd8b-407b-9b4f-769ba267f771.jpg)
+The chat is going to be implemented soon, with the goal of allowing users to talk to each other. 
+<hr>
+
 
 ## Installation
 
