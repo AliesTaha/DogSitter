@@ -1,6 +1,6 @@
 
 # Dog-Sitter: A Hack The North Website
-<div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+<div align="center" style="align-items: center; justify-content: center; height: 100%;">
   <img src="https://user-images.githubusercontent.com/103478551/208367317-8809a43c-9ab4-4dda-a29e-0f5949fcafff.png" style="width: 700px; height: 500px;">
 </div>
 
