@@ -15,8 +15,8 @@ The web application deals with client and server side, and uses big stack approa
   + [Chat](#chat)
   + [Dogs](#dogs)
   + [People](#people)
-  + [Login](#login)
   + [Person](#person)
+  + [Login](#login)
   + [Registration](#registration)
 * [Backend](#backend)
 * [Installation](#installation)
@@ -54,31 +54,20 @@ Following a user and unfollowing them is similar to liking the post. Clicking th
 ![People](https://user-images.githubusercontent.com/103478551/208367338-e91d23f9-0477-4357-a1dd-9c33416f11f6.png)
 <hr>
 
-#### Login
-![Login](https://user-images.githubusercontent.com/103478551/208367328-e2e7a4a8-08d7-48c3-8560-41b4599c74c3.jpg)
-The feed is created by appending all the posts of the users who are followed in the database, then ordering the posts using the timestamps so that the most recent post in on top. 
-<hr>
-
 #### Person
 ![Person](https://user-images.githubusercontent.com/103478551/208367344-0c4c3f4a-774a-41a9-930f-c80d3beaf075.png)
 One can create a post that includes a text, an image, or both. The functionality is supported for any option, and each post has its own ID in the backend, and is timestamped so that they are shown in chronological order.
+<hr>
+
+#### Login
+![Login](https://user-images.githubusercontent.com/103478551/208367328-e2e7a4a8-08d7-48c3-8560-41b4599c74c3.jpg)
+The feed is created by appending all the posts of the users who are followed in the database, then ordering the posts using the timestamps so that the most recent post in on top. 
 <hr>
 
 #### Registration
 ![Registration](https://user-images.githubusercontent.com/103478551/208367353-73276e42-dc35-4505-a501-098709e5a4b7.png)
 Liking a post is simply done through pressing the like button, which increments the post's number of likes by 1. Clicking the button again removes the like from the post
 <hr>
-
-#### Add Profile Status
-<img src="https://media.giphy.com/media/fq8JaLSUalKxwwKbAt/giphy.gif" width="900" height="730">
-At the click of a button, the user is able to access their status. They can change the fields, their information, and the respective picture, for background and profile. 
-<hr>
-
-#### Change Profile/Background Picture]
-<img src="https://media.giphy.com/media/74f209Zeae9b08qCag/giphy.gif" width="900" height="730">
-This is performed in the same way as above
-<hr>
-
 
 
 ## Backend
