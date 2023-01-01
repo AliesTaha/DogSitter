@@ -1,12 +1,3 @@
-# Hack The North Website
-
-Dog-Sitting Website!
-
-This is a web app that brings people together so that we can all enjoy our furry little companions when we need them most.
-
-If you're going away for the weekend and are having a hard time finding a pet sitter then you're looking in all the wrong places but TONS of people would be jump at the chance to take care of your cute little pups for a couple of days!
-
-And if you are looking to make a new friend, look no further - there are many to be found on this website
 
 <h2 align="center">            ~ 𝒞𝒽𝒶𝓉 ~</h2>
 
@@ -32,20 +23,20 @@ And if you are looking to make a new friend, look no further - there are many to
 
 ![Registration](https://user-images.githubusercontent.com/103478551/208367353-73276e42-dc35-4505-a501-098709e5a4b7.png)
 
+# Dog-Sitter: A Hack The North Website
 
+![Dogs](https://user-images.githubusercontent.com/103478551/208367317-8809a43c-9ab4-4dda-a29e-0f5949fcafff.png)
 
-# LikeIt
+This is a web app that brings people together so that we can all enjoy our furry little companions when we need them most. If you're going away for the weekend and are having a hard time finding a pet sitter then you're looking in all the wrong places but TONS of people would be jump at the chance to take care of your cute little pups for a couple of days! And if you are looking to make a new friend, look no further - there are many to be found on this website. 
 
-<img src="https://user-images.githubusercontent.com/103478551/209656711-f86178bf-213e-4c8b-b6b4-f7f06050069d.png">
-
-LikeIt is a social media application that combines features from facebook, instagram, and twitter. The web application deals with client and server side, and uses big stack approach. The global state is managed using redux libray, and uses React Router V6. The app also implements authentication for users, which is implemented using JWT authentication. The website allows the users to create an account, sign up / login, create a profile picture and background picture. It also allows users to follow and unfollow each other, post pictures, and populates their timeline with posts from the users they follow, in chronological order. They are also able to edit a status on thier profile, like other posts, and automatically calculates their number of followers/following.
+The web application deals with client and server side, and uses big stack approach. The global state is managed using redux libray, and uses React Router V6. The app also implements authentication for users, which is implemented using JWT authentication. The website allows the users to create an account, sign up / login, create a profile picture and background picture. It also allows users to connect with each other, follow and unfollow each other, post pictures of both themselves and their dogs, and choose to either dogsit or request someone to dogsit for them!
 
 ## Table of contents
 
 * [Technologies used](#technologies)
 * [Languages used](#languages)
 * [Supported functionality](#functionality)
-  + [Sign Up](#sign-up)
+  + [Chat](#chat)
   + [Log In or Out](#log-in-or-out)
   + [Follow or Unfollow a User](#follow-or-unfollow-a-user)
   + [Scroll Through Feed](#scroll-through-feed)
@@ -57,22 +48,15 @@ LikeIt is a social media application that combines features from facebook, insta
 * [Installation](#installation)
 
 ## Technologies
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Front+End;)](https://git.io/typing-svg)
 <p align="center">
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/> 
 <img src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"/>
-</p>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Back+End;)](https://git.io/typing-svg)
-<p align="center">
 <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/> 
 <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/Express.js-404D59?style=for-the-badge"/>
 </p>
 
 ## Languages
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Languages;)](https://git.io/typing-svg)
-<p align="center">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=whit"/>
 <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/>
@@ -80,8 +64,8 @@ LikeIt is a social media application that combines features from facebook, insta
 
 ## Functionality
 
-#### Sign Up
-![image](https://user-images.githubusercontent.com/103478551/209669670-178f3942-f529-4717-9d38-fa2ade107b93.png)
+#### 𝒞𝒽𝒶𝓉
+![Chat](https://user-images.githubusercontent.com/103478551/208367306-7b17366e-bd8b-407b-9b4f-769ba267f771.jpg)
 Signing up adds the new user to the database, and gives them the default profile and background image. It checks to see if passwords match, and checks if the user already exists in the database before doing so. 
 <hr>
 
