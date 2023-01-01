@@ -31,6 +31,8 @@ The web application deals with client and server side, and uses big stack approa
 <img src="https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white"/>
 <img src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
+<a href="#top" class="btn">Back to table of contents</a>
+<hr>
 
 ## Languages
 <p align="center">
