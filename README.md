@@ -16,10 +16,8 @@ The web application deals with client and server side, and uses big stack approa
   + [Dogs](#dogs)
   + [People](#people)
   + [Login](#login)
-  + [Create a Post](#create-a-post)
-  + [Like or Unlike a Post](#like-or-unlike-a-post)
-  + [Add Profile Status](#add-profile-status)
-  + [Change Profile or Background Picture](#change-profile-or-background-picture)
+  + [Person](#person)
+  + [Registration](#registration)
 * [Backend](#backend)
 * [Installation](#installation)
 
