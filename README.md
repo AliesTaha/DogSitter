@@ -64,7 +64,7 @@ The web application deals with client and server side, and uses big stack approa
 
 ## Functionality
 
-#### 𝒞𝒽𝒶𝓉
+#### Chat
 ![Chat](https://user-images.githubusercontent.com/103478551/208367306-7b17366e-bd8b-407b-9b4f-769ba267f771.jpg)
 Signing up adds the new user to the database, and gives them the default profile and background image. It checks to see if passwords match, and checks if the user already exists in the database before doing so. 
 <hr>
