@@ -10,7 +10,7 @@ This is a web app that brings people together so that we can all enjoy our furry
 
 The web application deals with client and server side, and uses big stack approach. Our web app is primariy a react app on the front end and we used a combination of individual programming and extreme programming when we hit walls. The app also implements authentication for users, which is implemented using JWT authentication. The website allows the users to create an account, sign up / login, create a profile picture and background picture. It also allows users to connect with each other, follow and unfollow each other, post pictures of both themselves and their dogs, and choose to either dogsit or request someone to dogsit for them! Ruby on rails and SQLite run the back end and so with a team of four we had two people manning the keyboards for the front end and the other two working diligently on the backend.
 
-## Table of contents
+<h2 id="top">Table of Contents</h2>
 
 * [Technologies used](#technologies)
 * [Languages used](#languages)
@@ -51,6 +51,7 @@ The web application deals with client and server side, and uses big stack approa
   <img src="https://user-images.githubusercontent.com/103478551/208367317-8809a43c-9ab4-4dda-a29e-0f5949fcafff.png" style="width: 700px; height: 500px;">
 </div>
 The feed is created by appending all the dogs in the database, then ordering the posts using the timestamps so that the most recent post in on top.
+<br>
 <a href="#top" class="btn">Back to table of contents</a>
 <hr>
 
@@ -59,6 +60,7 @@ The feed is created by appending all the dogs in the database, then ordering the
   <img src="https://user-images.githubusercontent.com/103478551/208367338-e91d23f9-0477-4357-a1dd-9c33416f11f6.png" style="width: 700px; height: 500px;">
 </div>
 The feed is created by appending all the users in the database, then ordering the posts using the timestamps so that the most recent post in on top. This shows each user the people they're searching for, whether pet-owners or dog-sitters. 
+<br>
 <a href="#top" class="btn">Back to table of contents</a>
 <hr>
 
@@ -67,6 +69,7 @@ The feed is created by appending all the users in the database, then ordering th
   <img src="https://user-images.githubusercontent.com/103478551/208367344-0c4c3f4a-774a-41a9-930f-c80d3beaf075.png" style="width: 700px; height: 500px;">
 </div>
 This acts as a profile page, which simply shows the details about the user. This shows if the user is a dog-sitter or has a dog themselves, and information both about the person and the pet. 
+<br>
 <a href="#top" class="btn">Back to table of contents</a>
 <hr>
 
@@ -76,6 +79,7 @@ This acts as a profile page, which simply shows the details about the user. This
 </div>
 Logging in simply checks if the user exists in the databse. If so, it checks if the passwords match. If so, then they can move on their own home page. 
 Logging out simply clears the memory of the browser such that the user has to log back in, either with the same credentials or a different one. 
+<br>
 <a href="#top" class="btn">Back to table of contents</a>
 <hr>
 
@@ -84,6 +88,7 @@ Logging out simply clears the memory of the browser such that the user has to lo
   <img src="https://user-images.githubusercontent.com/103478551/208367353-73276e42-dc35-4505-a501-098709e5a4b7.png" style="width: 700px; height: 500px;">
 </div>
 Signing up adds the new user to the database, and gives them the default profile and background image. It checks to see if passwords match, and checks if the user already exists in the database before doing so. 
+<br>
 <a href="#top" class="btn">Back to table of contents</a>
 <hr>
 
@@ -92,6 +97,7 @@ Signing up adds the new user to the database, and gives them the default profile
   <img src="https://user-images.githubusercontent.com/103478551/208367306-7b17366e-bd8b-407b-9b4f-769ba267f771.jpg" style="width: 700px; height: 500px;">
 </div>
 The chat is going to be implemented soon, with the goal of allowing users to talk to each other. 
+<br>
 <a href="#top" class="btn">Back to table of contents</a>
 <hr>
 
@@ -164,6 +170,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/a
 This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
 ### `yarn build` fails to minify
+<br>
 <br>
 <a href="#top" class="btn">Back to table of contents</a>
 
