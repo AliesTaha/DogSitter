@@ -36,7 +36,7 @@ The web application deals with client and server side, and uses big stack approa
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/> 
 <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=whit"/>
 <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white"/>
-![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)
+<img src="https://camo.githubusercontent.com/5b61735c54b91b851198d6de978a3ff3f3f9b5c2428bd5ed7f28ced1c93a181c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f727562792d2532334343333432442e7376673f7374796c653d666f722d7468652d6261646765266c6f676f3d72756279266c6f676f436f6c6f723d7768697465"/>
 </p>
 
 ## Functionality
